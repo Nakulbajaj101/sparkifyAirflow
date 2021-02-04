@@ -134,8 +134,14 @@ LIMIT 1;
    and remove the role and policty attached to the role.
    
    `python3 deletingInfrastructure.py`
- 
 
+## Screenshots
+
+![alt text](https://github.com/Nakulbajaj101/sparkifyAirflow/blob/master/dagNameAndStatus.png?raw=true)
+
+![alt text](https://github.com/Nakulbajaj101/sparkifyAirflow/blob/master/dag.png?raw=true)
+
+![alt text](https://github.com/Nakulbajaj101/sparkifyAirflow/blob/master/subdagQualityChecks.png?raw=true)
 
 # Contact for questions or support
 
