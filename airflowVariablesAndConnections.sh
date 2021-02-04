@@ -5,7 +5,7 @@ redshift_iam_arn=$1
 cluster_host=$2
 airflow variables --set schema_name udacity
 airflow variables --set redshift_iam_arn $redshift_iam_arn
-airflow connections --add --conn_id=redshift --conn_uri=postgresql://dwh_user:dwhPassword008@$clusterhost:5439/dwh
+airflow connections --add --conn_id=redshift --conn_uri=postgresql://dwh_user:dwhPassword008@$cluster_host:5439/dwh
 
 echo "run bash /opt/airflow/start.sh and switch on the dag"
 
